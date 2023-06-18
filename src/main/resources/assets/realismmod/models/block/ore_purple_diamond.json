@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "realismmod:block/ore_purple_diamond"
+  }
+}

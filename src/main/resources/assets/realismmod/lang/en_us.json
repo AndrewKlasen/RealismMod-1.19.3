@@ -1,0 +1,60 @@
+{
+  "item.realismmod.black_opal": "Black Opal",
+  "item.realismmod.raw_black_opal": "Raw Black Opal",
+
+  "item.realismmod.diamond_red": "Red Diamond",
+  "item.realismmod.diamond_blue": "Blue Diamond",
+  "item.realismmod.diamond_green": "Green Diamond",
+  "item.realismmod.diamond_orange": "Orange Diamond",
+  "item.realismmod.diamond_pink": "Pink Diamond",
+  "item.realismmod.diamond_purple": "Purple Diamond",
+  "item.realismmod.diamond_yellow": "Yellow Diamond",
+
+  "item.realismmod.amethyst": "Amethyst",
+  "item.realismmod.peridot": "Peridot",
+  "item.realismmod.ruby": "Ruby",
+  "item.realismmod.sapphire": "Sapphire",
+  "item.realismmod.vanadium": "Vanadium",
+  "item.realismmod.plutonium_ingot": "Plutonium Ingot",
+  "item.realismmod.nickel_ingot": "Nickel Ingot",
+  "item.realismmod.copper_ingot": "Copper Ingot",
+  "item.realismmod.steel_ingot": "Steel Ingot",
+  "item.realismmod.titanium_ingot": "Titanium Ingot",
+
+  "item.realismmod.copper_nugget": "Copper Nugget",
+
+
+  "block.realismmod.black_opal_block": "Black Opal Block",
+
+  "block.realismmod.block_blue_diamond": "Blue Diamond Block",
+  "block.realismmod.block_green_diamond": "Green Diamond Block",
+  "block.realismmod.block_orange_diamond": "Orange Diamond Block",
+  "block.realismmod.block_pink_diamond": "Pink Diamond Block",
+  "block.realismmod.block_purple_diamond": "Purple Diamond Block",
+  "block.realismmod.block_red_diamond": "Red Diamond Block",
+  "block.realismmod.block_yellow_diamond": "Yellow Diamond Block",
+
+  "block.realismmod.ore_blue_diamond": "Blue Diamond Ore",
+  "block.realismmod.ore_green_diamond": "Green Diamond Ore",
+  "block.realismmod.ore_orange_diamond": "Orange Diamond Ore",
+  "block.realismmod.ore_pink_diamond": "Pink Diamond Ore",
+  "block.realismmod.ore_purple_diamond": "Purple Diamond Ore",
+  "block.realismmod.ore_red_diamond": "Red Diamond Ore",
+  "block.realismmod.ore_yellow_diamond": "Yellow Diamond Ore",
+  "block.realismmod.ore_ruby": "Ruby Ore",
+  "block.realismmod.ore_sapphire": "Sapphire Ore",
+  "block.realismmod.ore_peridot": "Peridot Ore",
+  "block.realismmod.ore_nickel": "Nickel Ore",
+  "block.realismmod.ore_plutonium": "Plutonium Ore",
+  "block.realismmod.ore_uranium": "Uranium Ore",
+  "block.realismmod.ore_titanium": "Titanium Ore",
+  "block.realismmod.ore_vanadium": "Vanadium Ore",
+  "block.realismmod.ore_amethyst": "Amethyst Ore",
+
+
+
+
+
+  "creativemodetab.realism_item_tab": "Realism Mod Items",
+  "creativemodetab.realism_block_tab": "Realism Mod Blocks"
+}
