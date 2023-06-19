@@ -41,6 +41,15 @@
   "block.realismmod.ore_purple_diamond": "Purple Diamond Ore",
   "block.realismmod.ore_red_diamond": "Red Diamond Ore",
   "block.realismmod.ore_yellow_diamond": "Yellow Diamond Ore",
+
+  "block.realismmod.deepslate_ore_blue_diamond": "Deepslate Blue Diamond Ore",
+  "block.realismmod.deepslate_ore_green_diamond": "Deepslate Green Diamond Ore",
+  "block.realismmod.deepslate_ore_orange_diamond": "Deepslate Orange Diamond Ore",
+  "block.realismmod.deepslate_ore_pink_diamond": "Deepslate Pink Diamond Ore",
+  "block.realismmod.deepslate_ore_purple_diamond": "Deepslate Purple Diamond Ore",
+  "block.realismmod.deepslate_ore_red_diamond": "Deepslate Red Diamond Ore",
+  "block.realismmod.deepslate_ore_yellow_diamond": "Deepslate Yellow Diamond Ore",
+  
   "block.realismmod.ore_ruby": "Ruby Ore",
   "block.realismmod.ore_sapphire": "Sapphire Ore",
   "block.realismmod.ore_peridot": "Peridot Ore",
@@ -50,8 +59,18 @@
   "block.realismmod.ore_titanium": "Titanium Ore",
   "block.realismmod.ore_vanadium": "Vanadium Ore",
   "block.realismmod.ore_amethyst": "Amethyst Ore",
+  "block.realismmod.ore_black_opal": "Black Opal Ore",
 
-
+  "block.realismmod.amethyst_block": "Amethyst Block",
+  "block.realismmod.peridot_block": "Peridot Block",
+  "block.realismmod.ruby_block": "Ruby Block",
+  "block.realismmod.sapphire_block": "Sapphire Block",
+  "block.realismmod.vanadium_block": "Vanadium Block",
+  "block.realismmod.plutonium_block": "Plutonium Block",
+  "block.realismmod.nickel_block": "Nickel Block",
+  "block.realismmod.copper_block": "Copper Block",
+  "block.realismmod.steel_block": "Steel Block",
+  "block.realismmod.titanium_block": "Titanium Block",
 
 
 

@@ -51,6 +51,53 @@ public class RealismMod
         if(event.getTab() == ModCreativeModeTabs.REALISM_BLOCK_TAB){
             //Other Gems
             event.accept(ModBlocks.BLACK_OPAL_BLOCK);
+            event.accept(ModBlocks.AMETHYST_BLOCK);
+            event.accept(ModBlocks.NICKEL_BLOCK);
+            event.accept(ModBlocks.PERIDOT_BLOCK);
+            event.accept(ModBlocks.RUBY_BLOCK);
+            event.accept(ModBlocks.STEEL_BLOCK);
+            event.accept(ModBlocks.PLUTONIUM_BLOCK);
+            event.accept(ModBlocks.VANADIUM_BLOCK);
+            event.accept(ModBlocks.TITANIUM_BLOCK);
+            event.accept(ModBlocks.SAPPHIRE_BLOCK);
+
+            //Gem Ores
+            event.accept(ModBlocks.ORE_BLACK_OPAL);
+            event.accept(ModBlocks.ORE_AMETHYST);
+            event.accept(ModBlocks.ORE_NICKEL);
+            event.accept(ModBlocks.ORE_PERIDOT);
+            event.accept(ModBlocks.ORE_RUBY);
+            event.accept(ModBlocks.ORE_PLUTONIUM);
+            event.accept(ModBlocks.ORE_VANADIUM);
+            event.accept(ModBlocks.ORE_TITANIUM);
+            event.accept(ModBlocks.ORE_SAPPHIRE);
+            
+            //Diamond Blocks
+            event.accept(ModBlocks.BLOCK_BLUE_DIAMOND);
+            event.accept(ModBlocks.BLOCK_RED_DIAMOND);
+            event.accept(ModBlocks.BLOCK_ORANGE_DIAMOND);
+            event.accept(ModBlocks.BLOCK_YELLOW_DIAMOND);
+            event.accept(ModBlocks.BLOCK_PINK_DIAMOND);
+            event.accept(ModBlocks.BLOCK_PURPLE_DIAMOND);
+            event.accept(ModBlocks.BLOCK_GREEN_DIAMOND);
+            
+            //ALL Diamond Ores
+            event.accept(ModBlocks.ORE_BLUE_DIAMOND);
+            event.accept(ModBlocks.ORE_RED_DIAMOND);
+            event.accept(ModBlocks.ORE_ORANGE_DIAMOND);
+            event.accept(ModBlocks.ORE_YELLOW_DIAMOND);
+            event.accept(ModBlocks.ORE_PINK_DIAMOND);
+            event.accept(ModBlocks.ORE_PURPLE_DIAMOND);
+            event.accept(ModBlocks.ORE_GREEN_DIAMOND);
+
+            event.accept(ModBlocks.DEEPSLATE_ORE_BLUE_DIAMOND);
+            event.accept(ModBlocks.DEEPSLATE_ORE_RED_DIAMOND);
+            event.accept(ModBlocks.DEEPSLATE_ORE_ORANGE_DIAMOND);
+            event.accept(ModBlocks.DEEPSLATE_ORE_YELLOW_DIAMOND);
+            event.accept(ModBlocks.DEEPSLATE_ORE_PINK_DIAMOND);
+            event.accept(ModBlocks.DEEPSLATE_ORE_PURPLE_DIAMOND);
+            event.accept(ModBlocks.DEEPSLATE_ORE_GREEN_DIAMOND);
+            
         }
         if(event.getTab() == ModCreativeModeTabs.REALISM_ITEM_TAB){
             //Other Gems

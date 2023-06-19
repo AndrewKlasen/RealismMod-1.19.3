@@ -30,6 +30,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> NICKEL_INGOT = ITEMS.register("nickel_ingot",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> PERIDOT = ITEMS.register("peridot",
+            () -> new Item(new Item.Properties()));
 
     //Diamonds
     public static final RegistryObject<Item> DIAMOND_RED = ITEMS.register("diamond_red",
