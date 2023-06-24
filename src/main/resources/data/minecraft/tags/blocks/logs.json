@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "realismmod:willow_log",
+    "realismmod:willow_wood",
+    "realismmod:stripped_willow_log",
+    "realismmod:stripped_willow_wood"
+  ]
+}

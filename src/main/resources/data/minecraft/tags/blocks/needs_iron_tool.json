@@ -16,7 +16,6 @@
     "realismmod:steel_block",
     "realismmod:vanadium_block",
     "realismmod:nickel_block",
-    "realismmod:amethyst_block",
     "realismmod:peridot_block",
     "realismmod:ore_ruby",
     "realismmod:ore_sapphire",
@@ -24,9 +23,8 @@
     "realismmod:ore_plutonium",
     "realismmod:ore_vanadium",
     "realismmod:ore_nickel",
-    "realismmod:ore_amethyst",
     "realismmod:ore_peridot",
-    "realismmod:oe=rw_black_opal",
+    "realismmod:ore_black_opal",
     "realismmod:block_red_diamond",
     "realismmod:block_blue_diamond",
     "realismmod:block_green_diamond",
@@ -41,5 +39,5 @@
     "realismmod:deepslate_ore_yellow_diamond",
     "realismmod:deepslate_ore_pink_diamond",
     "realismmod:deepslate_ore_purple_diamond"
-    ]
+  ]
 }

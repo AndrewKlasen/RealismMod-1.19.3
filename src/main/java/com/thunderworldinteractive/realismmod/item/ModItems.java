@@ -20,8 +20,6 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> VANADIUM = ITEMS.register("vanadium",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> AMETHYST = ITEMS.register("amethyst",
-            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> TITANIUM_INGOT = ITEMS.register("titanium_ingot",
@@ -33,6 +31,21 @@ public class ModItems {
     public static final RegistryObject<Item> PERIDOT = ITEMS.register("peridot",
             () -> new Item(new Item.Properties()));
 
+    //Raw Gems
+
+    public static final RegistryObject<Item> RAW_BLACK_OPAL = ITEMS.register("raw_black_opal",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RAW_RUBY = ITEMS.register("raw_ruby",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RAW_SAPPHIRE = ITEMS.register("raw_sapphire",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RAW_VANADIUM = ITEMS.register("raw_vanadium",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RAW_PLUTONIUM = ITEMS.register("raw_plutonium",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RAW_PERIDOT = ITEMS.register("raw_peridot",
+            () -> new Item(new Item.Properties()));
+    
     //Diamonds
     public static final RegistryObject<Item> DIAMOND_RED = ITEMS.register("diamond_red",
             () -> new Item(new Item.Properties()));

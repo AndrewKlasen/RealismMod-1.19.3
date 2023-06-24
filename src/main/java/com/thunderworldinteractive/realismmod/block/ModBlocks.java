@@ -1,13 +1,21 @@
 package com.thunderworldinteractive.realismmod.block;
 
 import com.thunderworldinteractive.realismmod.RealismMod;
+import com.thunderworldinteractive.realismmod.block.custom.ModFlammableRotatedPillarBlock;
 import com.thunderworldinteractive.realismmod.item.ModItems;
+import com.thunderworldinteractive.realismmod.worldgen.tree.WillowTreeGrower;
+import net.minecraft.core.BlockPos;
+import net.minecraft.core.Direction;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.DropExperienceBlock;
+import net.minecraft.world.level.block.SaplingBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -44,9 +52,6 @@ public class ModBlocks {
     public static final RegistryObject<Block> NICKEL_BLOCK = registerBlock("nickel_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(2f,3f).requiresCorrectToolForDrops()));
-    public static final RegistryObject<Block> AMETHYST_BLOCK = registerBlock("amethyst_block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
-                    .strength(2f,3f).requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> PERIDOT_BLOCK = registerBlock("peridot_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(2f,3f).requiresCorrectToolForDrops()));
@@ -71,9 +76,6 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(3f,3f).requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> ORE_NICKEL = registerBlock("ore_nickel",
-            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
-                    .strength(3f,3f).requiresCorrectToolForDrops()));
-    public static final RegistryObject<Block> ORE_AMETHYST = registerBlock("ore_amethyst",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(3f,3f).requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> ORE_PERIDOT = registerBlock("ore_peridot",
@@ -148,7 +150,62 @@ public class ModBlocks {
     public static final RegistryObject<Block> DEEPSLATE_ORE_PINK_DIAMOND = registerBlock("deepslate_ore_pink_diamond",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(3f,3f).requiresCorrectToolForDrops(), UniformInt.of(2,6)));
-    
+
+
+
+    //Logs
+    public static final RegistryObject<Block> WILLOW_LOG = registerBlock("willow_log",
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)
+                    .strength(5f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> WILLOW_WOOD = registerBlock("willow_wood",
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD)
+                    .strength(5f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> STRIPPED_WILLOW_LOG = registerBlock("stripped_willow_log",
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_LOG)
+                    .strength(5f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> STRIPPED_WILLOW_WOOD = registerBlock("stripped_willow_wood",
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_WOOD)
+                    .strength(5f).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> WILLOW_PLANKS = registerBlock("willow_planks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)
+                    .strength(5f).requiresCorrectToolForDrops()){
+                @Override
+                public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return true;
+                }
+
+                @Override
+                public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 5;
+                }
+
+                @Override
+                public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 20;
+                }
+            });
+    public static final RegistryObject<Block> WILLOW_LEAVES = registerBlock("willow_leaves",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)
+                    .strength(5f).requiresCorrectToolForDrops()){
+                @Override
+                public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return true;
+                }
+
+                @Override
+                public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 30;
+                }
+
+                @Override
+                public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 60;
+                }
+            });
+    public static final RegistryObject<Block> WILLOW_SAPLING = registerBlock("willow_sapling",
+            () -> new SaplingBlock(new WillowTreeGrower(),BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

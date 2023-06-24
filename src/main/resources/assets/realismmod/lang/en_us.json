@@ -10,7 +10,6 @@
   "item.realismmod.diamond_purple": "Purple Diamond",
   "item.realismmod.diamond_yellow": "Yellow Diamond",
 
-  "item.realismmod.amethyst": "Amethyst",
   "item.realismmod.peridot": "Peridot",
   "item.realismmod.ruby": "Ruby",
   "item.realismmod.sapphire": "Sapphire",
@@ -21,9 +20,12 @@
   "item.realismmod.steel_ingot": "Steel Ingot",
   "item.realismmod.titanium_ingot": "Titanium Ingot",
 
-  "item.realismmod.copper_nugget": "Copper Nugget",
-
-
+  "item.realismmod.raw_peridot": "Raw Peridot",
+  "item.realismmod.raw_ruby": "Raw Ruby",
+  "item.realismmod.raw_sapphire": "Raw Sapphire",
+  "item.realismmod.raw_vanadium": "Raw Vanadium",
+  "item.realismmod.raw_plutonium": "Raw Plutonium ",
+  
   "block.realismmod.black_opal_block": "Black Opal Block",
 
   "block.realismmod.block_blue_diamond": "Blue Diamond Block",
@@ -58,10 +60,8 @@
   "block.realismmod.ore_uranium": "Uranium Ore",
   "block.realismmod.ore_titanium": "Titanium Ore",
   "block.realismmod.ore_vanadium": "Vanadium Ore",
-  "block.realismmod.ore_amethyst": "Amethyst Ore",
   "block.realismmod.ore_black_opal": "Black Opal Ore",
 
-  "block.realismmod.amethyst_block": "Amethyst Block",
   "block.realismmod.peridot_block": "Peridot Block",
   "block.realismmod.ruby_block": "Ruby Block",
   "block.realismmod.sapphire_block": "Sapphire Block",
@@ -72,7 +72,13 @@
   "block.realismmod.steel_block": "Steel Block",
   "block.realismmod.titanium_block": "Titanium Block",
 
-
+  "block.realismmod.willow_log": "Willow Log",
+  "block.realismmod.willow_planks": "Willow Planks",
+  "block.realismmod.willow_wood": "Willow Wood",
+  "block.realismmod.stripped_willow_log": "Stripped Willow Log",
+  "block.realismmod.stripped_willow_wood": "Stripped Willow Wood",
+  "block.realismmod.willow_leaves": "Willow Leaves",
+  "block.realismmod.willow_sapling": "Willow Sapling",
 
   "creativemodetab.realism_item_tab": "Realism Mod Items",
   "creativemodetab.realism_block_tab": "Realism Mod Blocks"

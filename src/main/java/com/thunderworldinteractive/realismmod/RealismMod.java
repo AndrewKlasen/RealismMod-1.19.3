@@ -51,7 +51,6 @@ public class RealismMod
         if(event.getTab() == ModCreativeModeTabs.REALISM_BLOCK_TAB){
             //Other Gems
             event.accept(ModBlocks.BLACK_OPAL_BLOCK);
-            event.accept(ModBlocks.AMETHYST_BLOCK);
             event.accept(ModBlocks.NICKEL_BLOCK);
             event.accept(ModBlocks.PERIDOT_BLOCK);
             event.accept(ModBlocks.RUBY_BLOCK);
@@ -63,7 +62,6 @@ public class RealismMod
 
             //Gem Ores
             event.accept(ModBlocks.ORE_BLACK_OPAL);
-            event.accept(ModBlocks.ORE_AMETHYST);
             event.accept(ModBlocks.ORE_NICKEL);
             event.accept(ModBlocks.ORE_PERIDOT);
             event.accept(ModBlocks.ORE_RUBY);
@@ -97,19 +95,35 @@ public class RealismMod
             event.accept(ModBlocks.DEEPSLATE_ORE_PINK_DIAMOND);
             event.accept(ModBlocks.DEEPSLATE_ORE_PURPLE_DIAMOND);
             event.accept(ModBlocks.DEEPSLATE_ORE_GREEN_DIAMOND);
-            
+
+
+            //LOGS
+            event.accept(ModBlocks.WILLOW_LEAVES);
+            event.accept(ModBlocks.WILLOW_LOG);
+            event.accept(ModBlocks.WILLOW_WOOD);
+            event.accept(ModBlocks.WILLOW_PLANKS);
+            event.accept(ModBlocks.STRIPPED_WILLOW_LOG);
+            event.accept(ModBlocks.STRIPPED_WILLOW_WOOD);
+            event.accept(ModBlocks.WILLOW_SAPLING);
+
         }
         if(event.getTab() == ModCreativeModeTabs.REALISM_ITEM_TAB){
             //Other Gems
             event.accept(ModItems.BLACK_OPAL);
             event.accept(ModItems.NICKEL_INGOT);
             event.accept(ModItems.RUBY);
-            event.accept(ModItems.AMETHYST);
             event.accept(ModItems.PLUTONIUM_INGOT);
             event.accept(ModItems.SAPPHIRE);
             event.accept(ModItems.STEEL_INGOT);
             event.accept(ModItems.TITANIUM_INGOT);
             event.accept(ModItems.VANADIUM);
+            event.accept(ModItems.PERIDOT);
+            //raw Gems
+            event.accept(ModItems.RAW_RUBY);
+            event.accept(ModItems.RAW_PLUTONIUM);
+            event.accept(ModItems.RAW_SAPPHIRE);
+            event.accept(ModItems.RAW_VANADIUM);
+            event.accept(ModItems.RAW_PERIDOT);
 
             //Diamond Ingots
             event.accept(ModItems.DIAMOND_BLUE);
