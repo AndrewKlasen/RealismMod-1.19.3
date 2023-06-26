@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "realismmod:steel_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "realismmod:steel_ingot"
+  }
+}

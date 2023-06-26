@@ -81,7 +81,28 @@ public class ModBlocks {
     public static final RegistryObject<Block> ORE_PERIDOT = registerBlock("ore_peridot",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(3f,3f).requiresCorrectToolForDrops()));
-    
+
+    public static final RegistryObject<Block> ORE_COBALT = registerBlock("ore_cobalt",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(3f,3f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> ORE_JADE = registerBlock("ore_jade",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(3f,3f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> ORE_ZINC = registerBlock("ore_zinc",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(3f,3f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> ORE_TIN = registerBlock("ore_tin",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(3f,3f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> ORE_ALUMINUM = registerBlock("ore_aluminum",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(3f,3f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> ORE_SILVER = registerBlock("ore_silver",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(3f,3f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> ORE_CHROMIUM = registerBlock("ore_chromium",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(3f,3f).requiresCorrectToolForDrops()));
 
     //Diamond Block
     public static final RegistryObject<Block> BLOCK_RED_DIAMOND = registerBlock("block_red_diamond",

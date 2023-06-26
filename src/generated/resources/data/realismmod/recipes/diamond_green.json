@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "realismmod:block_green_diamond"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "realismmod:diamond_green"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 1.0,
+  "group": "purple_diamond_blast",
+  "ingredient": {
+    "item": "realismmod:ore_purple_diamond"
+  },
+  "result": "realismmod:diamond_purple"
+}

@@ -10,6 +10,22 @@
   "item.realismmod.diamond_purple": "Purple Diamond",
   "item.realismmod.diamond_yellow": "Yellow Diamond",
 
+  "item.realismmod.raw_tin": "Raw Tin",
+  "item.realismmod.raw_zinc": "Raw Zinc",
+  "item.realismmod.raw_aluminum": "Raw Aluminum",
+  "item.realismmod.raw_jade": "Raw Jade",
+  "item.realismmod.raw_cobalt": "Raw Cobalt",
+  "item.realismmod.raw_silver": "Raw Silver",
+  "item.realismmod.raw_chromium": "Raw Chromium",
+
+  "item.realismmod.tin_ingot": " Tin Ingot",
+  "item.realismmod.zinc_ingot": " Zinc Ingot",
+  "item.realismmod.aluminum_ingot": " Aluminum Ingot",
+  "item.realismmod.jade_ingot": " Jade Ingot",
+  "item.realismmod.cobalt_ingot": " Cobalt Ingot",
+  "item.realismmod.silver_ingot": " Silver Ingot",
+  "item.realismmod.chromium_ingot": " Chromium Ingot",
+
   "item.realismmod.peridot": "Peridot",
   "item.realismmod.ruby": "Ruby",
   "item.realismmod.sapphire": "Sapphire",
@@ -43,6 +59,14 @@
   "block.realismmod.ore_purple_diamond": "Purple Diamond Ore",
   "block.realismmod.ore_red_diamond": "Red Diamond Ore",
   "block.realismmod.ore_yellow_diamond": "Yellow Diamond Ore",
+
+  "block.realismmod.ore_cobalt": "Cobalt Ore",
+  "block.realismmod.ore_jade": "Jade Ore",
+  "block.realismmod.ore_zinc": "Zinc Ore",
+  "block.realismmod.ore_tin": "Tin Ore",
+  "block.realismmod.ore_aluminum": "Aluminum Ore",
+  "block.realismmod.ore_silver": "Silver Ore",
+  "block.realismmod.ore_chromium": "Chromium Ore",
 
   "block.realismmod.deepslate_ore_blue_diamond": "Deepslate Blue Diamond Ore",
   "block.realismmod.deepslate_ore_green_diamond": "Deepslate Green Diamond Ore",
@@ -79,6 +103,9 @@
   "block.realismmod.stripped_willow_wood": "Stripped Willow Wood",
   "block.realismmod.willow_leaves": "Willow Leaves",
   "block.realismmod.willow_sapling": "Willow Sapling",
+
+
+
 
   "creativemodetab.realism_item_tab": "Realism Mod Items",
   "creativemodetab.realism_block_tab": "Realism Mod Blocks"

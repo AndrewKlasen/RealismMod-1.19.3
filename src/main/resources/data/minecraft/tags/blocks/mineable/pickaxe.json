@@ -38,6 +38,13 @@
     "realismmod:deepslate_ore_orange_diamond",
     "realismmod:deepslate_ore_yellow_diamond",
     "realismmod:deepslate_ore_pink_diamond",
-    "realismmod:deepslate_ore_purple_diamond"
+    "realismmod:deepslate_ore_purple_diamond",
+    "realismmod:ore_tin",
+    "realismmod:ore_aluminum",
+    "realismmod:ore_jade",
+    "realismmod:ore_chromium",
+    "realismmod:ore_silver",
+    "realismmod:ore_cobalt",
+    "realismmod:ore_zinc"
   ]
 }

@@ -61,6 +61,14 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.ORE_NICKEL);
         blockWithItem(ModBlocks.ORE_PERIDOT);
 
+        blockWithItem(ModBlocks.ORE_ZINC);
+        blockWithItem(ModBlocks.ORE_ALUMINUM);
+        blockWithItem(ModBlocks.ORE_SILVER);
+        blockWithItem(ModBlocks.ORE_CHROMIUM);
+        blockWithItem(ModBlocks.ORE_TIN);
+        blockWithItem(ModBlocks.ORE_COBALT);
+        blockWithItem(ModBlocks.ORE_JADE);
+
         //Diamond Blocks
         blockWithItem(ModBlocks.BLOCK_RED_DIAMOND);
         blockWithItem(ModBlocks.BLOCK_BLUE_DIAMOND);

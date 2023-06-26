@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "group": "deepslate_purple_diamond",
+  "ingredient": {
+    "item": "realismmod:deepslate_ore_purple_diamond"
+  },
+  "result": "realismmod:diamond_purple"
+}

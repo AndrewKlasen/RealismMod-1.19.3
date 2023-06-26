@@ -69,7 +69,16 @@ public class RealismMod
             event.accept(ModBlocks.ORE_VANADIUM);
             event.accept(ModBlocks.ORE_TITANIUM);
             event.accept(ModBlocks.ORE_SAPPHIRE);
-            
+
+            event.accept(ModBlocks.ORE_CHROMIUM);
+            event.accept(ModBlocks.ORE_ZINC);
+            event.accept(ModBlocks.ORE_SILVER);
+            event.accept(ModBlocks.ORE_COBALT);
+            event.accept(ModBlocks.ORE_ALUMINUM);
+            event.accept(ModBlocks.ORE_JADE);
+            event.accept(ModBlocks.ORE_TIN);
+
+
             //Diamond Blocks
             event.accept(ModBlocks.BLOCK_BLUE_DIAMOND);
             event.accept(ModBlocks.BLOCK_RED_DIAMOND);
@@ -118,12 +127,28 @@ public class RealismMod
             event.accept(ModItems.TITANIUM_INGOT);
             event.accept(ModItems.VANADIUM);
             event.accept(ModItems.PERIDOT);
+
+            event.accept(ModItems.RAW_CHROMIUM);
+            event.accept(ModItems.RAW_ZINC);
+            event.accept(ModItems.RAW_SILVER);
+            event.accept(ModItems.RAW_COBALT);
+            event.accept(ModItems.RAW_ALUMINUM);
+            event.accept(ModItems.RAW_JADE);
+            event.accept(ModItems.RAW_TIN);
             //raw Gems
             event.accept(ModItems.RAW_RUBY);
             event.accept(ModItems.RAW_PLUTONIUM);
             event.accept(ModItems.RAW_SAPPHIRE);
             event.accept(ModItems.RAW_VANADIUM);
             event.accept(ModItems.RAW_PERIDOT);
+
+            event.accept(ModItems.CHROMIUM_INGOT);
+            event.accept(ModItems.ZINC_INGOT);
+            event.accept(ModItems.SILVER_INGOT);
+            event.accept(ModItems.COBALT_INGOT);
+            event.accept(ModItems.ALUMINUM_INGOT);
+            event.accept(ModItems.JADE_INGOT);
+            event.accept(ModItems.TIN_INGOT);
 
             //Diamond Ingots
             event.accept(ModItems.DIAMOND_BLUE);

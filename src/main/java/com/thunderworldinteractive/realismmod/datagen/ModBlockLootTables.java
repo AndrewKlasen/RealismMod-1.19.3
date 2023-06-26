@@ -56,6 +56,23 @@ public class ModBlockLootTables extends BlockLootSubProvider {
                 (block) -> createOreDrop(ModBlocks.ORE_TITANIUM.get(), ModItems.TITANIUM_INGOT.get()));
         add(ModBlocks.ORE_VANADIUM.get(),
                 (block) -> createOreDrop(ModBlocks.ORE_VANADIUM.get(), ModItems.RAW_VANADIUM.get()));
+
+        add(ModBlocks.ORE_ZINC.get(),
+                (block) -> createOreDrop(ModBlocks.ORE_ZINC.get(), ModItems.RAW_ZINC.get()));
+        add(ModBlocks.ORE_SILVER.get(),
+                (block) -> createOreDrop(ModBlocks.ORE_SILVER.get(), ModItems.RAW_SILVER.get()));
+        add(ModBlocks.ORE_ALUMINUM.get(),
+                (block) -> createOreDrop(ModBlocks.ORE_ALUMINUM.get(), ModItems.RAW_ALUMINUM.get()));
+        add(ModBlocks.ORE_CHROMIUM.get(),
+                (block) -> createOreDrop(ModBlocks.ORE_CHROMIUM.get(), ModItems.RAW_CHROMIUM.get()));
+        add(ModBlocks.ORE_JADE.get(),
+                (block) -> createOreDrop(ModBlocks.ORE_JADE.get(), ModItems.RAW_JADE.get()));
+        add(ModBlocks.ORE_TIN.get(),
+                (block) -> createOreDrop(ModBlocks.ORE_TIN.get(), ModItems.RAW_TIN.get()));
+        add(ModBlocks.ORE_COBALT.get(),
+                (block) -> createOreDrop(ModBlocks.ORE_COBALT.get(), ModItems.RAW_COBALT.get()));
+
+
         //Gem Blocks
         dropSelf(ModBlocks.RUBY_BLOCK.get());
         dropSelf(ModBlocks.SAPPHIRE_BLOCK.get());

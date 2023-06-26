@@ -5,6 +5,7 @@ import com.thunderworldinteractive.realismmod.block.ModBlocks;
 import com.thunderworldinteractive.realismmod.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.SimpleContainer;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.client.model.generators.ItemModelBuilder;
@@ -28,6 +29,22 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.PLUTONIUM_INGOT);
         simpleItem(ModItems.NICKEL_INGOT);
         simpleItem(ModItems.PERIDOT);
+
+        simpleItem(ModItems.TIN_INGOT);
+        simpleItem(ModItems.COBALT_INGOT);
+        simpleItem(ModItems.SILVER_INGOT);
+        simpleItem(ModItems.ALUMINUM_INGOT);
+        simpleItem(ModItems.CHROMIUM_INGOT);
+        simpleItem(ModItems.JADE_INGOT);
+        simpleItem(ModItems.ZINC_INGOT);
+
+        simpleItem(ModItems.RAW_TIN);
+        simpleItem(ModItems.RAW_COBALT);
+        simpleItem(ModItems.RAW_SILVER);
+        simpleItem(ModItems.RAW_ALUMINUM);
+        simpleItem(ModItems.RAW_CHROMIUM);
+        simpleItem(ModItems.RAW_JADE);
+        simpleItem(ModItems.RAW_ZINC);
 
         simpleItem(ModItems.RAW_BLACK_OPAL);
         simpleItem(ModItems.RAW_RUBY);
